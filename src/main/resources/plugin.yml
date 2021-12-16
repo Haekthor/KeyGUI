@@ -1,0 +1,13 @@
+name: keygui
+version: 1.0
+author: Hector Kolind
+main: dev.kolind.keygui.Main.Main
+description: A key plugin
+api-version: 1.18
+
+commands:
+  roll:
+    description: A command to run keygui manually
+    permission: keygui.roll
+    permission-message: Insufficient permissions!
+    usage: /roll
